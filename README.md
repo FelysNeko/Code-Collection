@@ -1,2 +1,2 @@
-# Scripts-Collection
-Collections of scripts in different languages
+# Code-Collection
+Code collection in different languages
