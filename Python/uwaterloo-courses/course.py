@@ -9,11 +9,11 @@ import pandas as pd
 
 class console:
     @staticmethod
-    def found(sth=str) -> None:
+    def found(sth:str) -> None:
         print(f'\033[0;32m[{sth.upper()}]\tFound\033[0m')
 
     @staticmethod
-    def missing(sth=str) -> None:
+    def missing(sth:str) -> None:
         print(f'\033[0;31m[{sth.upper()}]\tMissing\033[0m')
 
 
@@ -31,7 +31,7 @@ class link:
           }
 
 
-def lookup(course=list) -> list:
+def lookup(course:list) -> list:
     category = ['liked', 'easy', 'useful', 'filled_count', 'comment_count']
     stdz = lambda x: np.nan if x is None else round(x, 2)
     js = copy.deepcopy(link.js)
