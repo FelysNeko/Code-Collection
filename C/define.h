@@ -2,6 +2,7 @@
 #define FREE(ptr) if (ptr!=NULL) {free(ptr); --counter;}
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
+#define SWAP(a, b, type) do (type temp=a; a=b; b=temp;) while(0)
 
 #define RED(msg) "\033[1;31m"msg"\033[0m\n"
 #define GREEN(msg) "\033[1;32m"msg"\033[0m\n"

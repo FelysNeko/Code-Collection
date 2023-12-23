@@ -3,8 +3,8 @@
 
 void selection(double *array, std::size_t cap)
 {
-    std::size_t index{};
-    double temp{};
+    std::size_t index{0};
+    double temp{0};
 
     for (std::size_t i{cap-1}; i>0; --i) {
         index = 0;

@@ -3,8 +3,8 @@
 
 void insertion(double *array, std::size_t cap)
 {
-    std::size_t index{};
-    double value{};
+    std::size_t index{0};
+    double value{0};
 
     for (std::size_t i{1}; i<cap; ++i) {
         value = array[i];
